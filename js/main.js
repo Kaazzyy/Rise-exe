@@ -16,8 +16,8 @@
         {
             name:'zimek',
             skinUrl:'https://skins.vanis.io/s/Owljce',
-            isLockedToColor:true,
-            isLockedToName:true,
+            isLockedToColor:false,
+            isLockedToName:false,
             url:'https://i.postimg.cc/x82447k4/hat5.png',
             forceSkin:'https://i.postimg.cc/QxjCrd1f/skin5.png'
         }
