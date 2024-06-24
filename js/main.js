@@ -26,7 +26,7 @@
             isLockedToColor:false,
             isLockedToName:false,
             url:'https://i.postimg.cc/x82447k4/hat5.png',
-            forceSkin:'https://skins.vanis.io/s/LC1msC'
+            forceSkin:'https://i.postimg.cc/QxjCrd1f/skin5.png'
         }
     ]
     
