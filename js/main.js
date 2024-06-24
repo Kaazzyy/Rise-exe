@@ -70,10 +70,10 @@
             isLockedToColor:false,
             isLockedToName:true,
             gif:{
-                url:'https://github.com/Zimehx/gif_source/blob/main/gojo1/18.gif',
+                url:'https://github.com/Zimehx/gif_source',
                 count:45,
                 format:'.gif',
-                delay:1000
+                delay:30
             }
         }
     ]
