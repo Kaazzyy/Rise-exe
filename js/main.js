@@ -73,7 +73,7 @@
                 url:'https://github.com/Zimehx/gif_source/tree/main/gojo1',
                 count:45,
                 format:'.gif',
-                delay:10
+                delay:30
             }
         }
     ]
