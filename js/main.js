@@ -68,10 +68,10 @@
             name:'zimek', 
             skinUrl:'https://skins.vanis.io/s/QyYQz0',
             isLockedToColor:false,
-            isLockedToName:false,
+            isLockedToName:true,
             gif:{
                 url:'https://github.com/Zimehx/gif_source/tree/main/gojo1',
-                count:45,
+                count:1000,
                 format:'.gif',
                 delay:1000
             }
