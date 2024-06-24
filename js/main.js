@@ -7673,7 +7673,7 @@
                     staticClass: "server-cautions"
                 }, i(this.serverInfo, i => e("div", [s(t(i))])), 0), s(" "), e("div", {
                     staticClass: "cautions"
-                }, [!this.stopped && this.showMouseFrozen ? e("div", [s("MOUSE FROZEN")]) : a(), s(" "), !this.stopped && this.showMovementStopped ? e("div", [s(`MOVEMENT STOPPED [TAB ${this.showMovementStopped}]`)]) : a(), s(" "), !this.stopped && this.showLinesplitting ? e("div", [s(`LINESPLITTING [TAB ${this.showLinesplitting}]`)]) : a()])])
+                }, [!this.stopped && this.showMouseFrozen ? e("div", [s("MOUSE FROZEN TO CLIP?")]) : a(), s(" "), !this.stopped && this.showMovementStopped ? e("div", [s(`brick tactic [TAB ${this.showMovementStopped}]`)]) : a(), s(" "), !this.stopped && this.showLinesplitting ? e("div", [s(`CLIPPING [TAB ${this.showLinesplitting}]`)]) : a()])])
             };
             e6._withStripped = !0;
             var ez = s(1),
