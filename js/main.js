@@ -4898,7 +4898,7 @@
                             type: "range",
                             min: "0",
                             max: "10000",
-                            step: "10"
+                            step: "20"
                         },
                         domProps: {
                             value: e.drawDelay
@@ -7673,7 +7673,7 @@
                     staticClass: "server-cautions"
                 }, i(this.serverInfo, i => e("div", [s(t(i))])), 0), s(" "), e("div", {
                     staticClass: "cautions"
-                }, [!this.stopped && this.showMouseFrozen ? e("div", [s("MOUSE FROZEN TO CLIP?")]) : a(), s(" "), !this.stopped && this.showMovementStopped ? e("div", [s(`brick tactic [TAB ${this.showMovementStopped}]`)]) : a(), s(" "), !this.stopped && this.showLinesplitting ? e("div", [s(`CLIPPING [TAB ${this.showLinesplitting}]`)]) : a()])])
+                }, [!this.stopped && this.showMouseFrozen ? e("div", [s("MOUSE FROZEN")]) : a(), s(" "), !this.stopped && this.showMovementStopped ? e("div", [s(`MOVEMENT STOPPED [TAB ${this.showMovementStopped}]`)]) : a(), s(" "), !this.stopped && this.showLinesplitting ? e("div", [s(`LINESPLITTING [TAB ${this.showLinesplitting}]`)]) : a()])])
             };
             e6._withStripped = !0;
             var ez = s(1),
@@ -8047,7 +8047,7 @@
                                 this.headerVisible = !0;
                                 var s = this.gameState.selectedServer.region || "";
                                 s && (s += " "), this.headerText = s + this.gameState.selectedServer.name
-                            } else this.headerVisible = !0, this.headerText = "Leaderboard"
+                            } else this.headerVisible = !0, this.headerText = "Kazzy's dogs"
                         },
                         leftClickLabel() {
                             let e = event.target.dataset.pid;
@@ -8586,4 +8586,3 @@ Multibox Profile
         
 console.log('RISE v1.1.3')
 }(window);
-
