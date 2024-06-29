@@ -4592,7 +4592,7 @@
                             type: "text",
                             spellcheck: "false",
                             placeholder: "Nickname",
-                            maxlength: "15"
+                            maxlength: "25"
                         },
                         domProps: {
                             value: e.nickname
@@ -5023,7 +5023,7 @@
                         attrs: {
                             type: "range",
                             min: "1",
-                            max: "15",
+                            max: "30",
                             step: "1"
                         },
                         domProps: {
@@ -8577,7 +8577,7 @@ Your Dual Nigga
 <br>
 
 <div data-v-3ddebeb3="" class="p-switch pretty" p-checkbox="" style="float:left;margin-top:4px"><input type="checkbox" id="mbUseName" onchange="window.setMultiData(3)" ${window.settings.mbUseName?"checked":""}> <div class="state"> <label></label></div> <!----> <!----> <!----></div>
-    <input oninput="window.setMultiData(2)" id="mbName" value="${window.settings.mbName}" type="text" spellcheck="false" style="float:right; width:240px;" placeholder="Multibox Nickname" maxlength="15">
+    <input oninput="window.setMultiData(2)" id="mbName" value="${window.settings.mbName}" type="text" spellcheck="false" style="float:right; width:240px;" placeholder="Multibox Nickname" maxlength="25">
 </center>`, JSON.parse(localStorage.skins).forEach(e => {
                 $("#multiSkins").innerHTML += `<img onclick="window.setMultiData(1, '${e}')" src="${""==e?"https://skins.vanis.io/s/7FQOch":e}" width="125" style="cursor:pointer;padding:5px;border-radius:50%;">`
             })
