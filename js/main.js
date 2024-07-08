@@ -412,7 +412,7 @@
                     lifeState: 0,
                     allowed: !1,
                     playButtonDisabled: !1,
-                    playButtonText: "Play",
+                    playButtonText: "Savage 😎",
                     deathDelay: !1,
                     autoRespawning: !1
                 },
